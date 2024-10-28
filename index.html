@@ -17,12 +17,31 @@
 
     <div>
         <h2>if-sats</h2>
-        <button onclick="askUser ()">Fråga</button><hr>
+        <button onclick="askUser ()">Fråga</button>
     </div><hr>
 
     <div>
         <h2>longestWord</h2>
         <button onclick="words()">ask</button>
+    </div><hr>
+    <div>
+        <h2>Password</h2>
+        <input id="Password" type="text" placeholder="Enter your Password:">
+        <button onclick="userPass()">Enter</button>
+    </div><hr>
+
+    <div>
+        <h2> Ålderskategori</h2>
+        <input id="age" type="text" placeholder="Skriv din ålder">
+        <button onclick="userAge()">Enter</button>
+        <p id="svar"></p>
+    </div><hr>
+
+    <div>
+        <h2>Välj ett alternativ</h2>
+        <button onclick="makeDecision()">Välj</button>
+        <p id="result"></p>
+
     </div>
 </body>
 </html>
